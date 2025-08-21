@@ -27,7 +27,7 @@ a = 10
 10 > 3 and 10 < 11
 
 # 5. Bitwise Operators
-# ()
+# (&, |, ^, ~, <<, >>)
 c = 10 & 20
 
 # 6. Membership Operators
