@@ -11,18 +11,23 @@
 # Types of Python Operators
 
 # 1. Arithmetic Operators 
+# (Addition +, Subtraction -, Multiplication *, Division /, Modulus %, Exponent **, Floor Division //)
 c = 10 + 20
 
 # 2. Comparison (Relational) Operators
+# (<, >, <=, >=, ==, !=)
 10 == 10
 
 # 3. Assignment Operators
+# (=, +=, -=, *=, /=, %=, **=, //=)
 a = 10
 
 # 4. Logical Operators
+# (and, or, not)
 10 > 3 and 10 < 11
 
 # 5. Bitwise Operators
+# ()
 c = 10 & 20
 
 # 6. Membership Operators
