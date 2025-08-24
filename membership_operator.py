@@ -1,11 +1,16 @@
 # The membership operators in Python help us determine whether an item 
 # is present in a given container type object.
 
+# ------------------------------------------------------------------------------------------------------------------------------
+
 # Python has two membership operators: 
 # 1. in 
 # 2. not in
 
+# ------------------------------------------------------------------------------------------------------------------------------
+
 # The 'in' Operator
+# -----------------
 
 # The "in" operator is used to check whether - 
 # 1. a substring is present in a bigger string, 
@@ -24,8 +29,11 @@ print (f"{b} in {var}", ":", b in var) # True
 print (f"{c} in {var}", ":", c in var) # True
 print (f"{d} in {var}", ":", d in var) # False
 
+# ------------------------------------------------------------------------------------------------------------------------------
 
 # The 'not in' Operator
+# ---------------------
+
 # The "not in" operator is used to check whether a sequence with the given 
 # value is not present in the object like string, list, tuple, etc.
 
@@ -40,7 +48,11 @@ print (f"{b} not in {var}", b not in var) # False
 print (f"{c} not in {var}", c not in var) # False
 print (f"{d} not in {var}", d not in var) # True
 
+# ------------------------------------------------------------------------------------------------------------------------------
+
 # Membership Operator with Lists and Tuples
+# -----------------------------------------
+
 var = [10,20,30,40]
 a = 20
 b = 10
@@ -58,6 +70,8 @@ print (f"{d} not in {var}", ":", d not in var) # False
 print()
 print(f"0x14 in {var}:", 0x14 in [10, 20, 30, 40]) # True
 
+# ------------------------------------------------------------------------------------------------------------------------------
+
 # However, if you try to check if two successive numbers are present in a list or tuple, 
 # the in operator returns False.
 var = (10,20,30,40)
@@ -71,7 +85,11 @@ a = (10, 20)
 print()
 print (f"{a} in {var}:", a in var) # True
 
+# ------------------------------------------------------------------------------------------------------------------------------
+
 # Membership Operator with Sets
+# -----------------------------
+
 var = {10,20,30,40}
 a = 20
 b = 10
@@ -84,7 +102,11 @@ a = (10, 20)
 print()
 print (f"{a} in {var}:", a in var) # True
 
+# ------------------------------------------------------------------------------------------------------------------------------
+
 # Membership Operator with Dictionaries
+# -------------------------------------
+
 # Use of in as well as not in operators with dictionary object is allowed. 
 # However, Python checks the membership only with the collection of keys and not values.
 
@@ -94,3 +116,5 @@ b = 20
 print()
 print (f"{a} in {var}", ":", a in var) # True
 print (f"{b} in {var}", ":", b in var) # True
+
+# ------------------------------------------------------------------------------------------------------------------------------
